@@ -1,0 +1,30 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Couleur de fond */
+}
+
+.video-container {
+    width: 50%; /* Ajuste la largeur selon tes besoins */
+    margin-bottom: 20px; /* Espace entre la vidéo et le bouton */
+    border: 2px solid #ccc; /* Bordure pour le rectangle */
+    border-radius: 10px; /* Coins arrondis */
+    overflow: hidden; /* Pour un effet propre */
+}
+
+.auth-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Couleur du bouton */
+    color: white; /* Couleur du texte */
+    border: none;
+    border-radius: 5px; /* Coins arrondis pour le bouton */
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
